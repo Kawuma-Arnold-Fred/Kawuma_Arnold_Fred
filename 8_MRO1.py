@@ -4,7 +4,7 @@ class Payment:
         
 class CreditCard(Payment):
     def pay(self):
-        print('PAying with credit card')
+        print('Paying with credit card')
         
 class DigitalPayment(Payment):
     def pay(self):
